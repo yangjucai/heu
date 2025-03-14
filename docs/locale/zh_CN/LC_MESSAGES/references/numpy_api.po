@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: HEU \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 14:31+0800\n"
+"POT-Creation-Date: 2025-03-14 16:06+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -75,7 +75,8 @@ msgstr ""
 #: heu.numpy.PyCapsule.feature_wise_bucket_sum:1 heu.numpy.PyCapsule.matmul:1
 #: heu.numpy.PyCapsule.mul:1 heu.numpy.PyCapsule.select_sum:1
 #: heu.numpy.PyCapsule.setup:1 heu.numpy.PyCapsule.sub:1
-#: heu.numpy.PyCapsule.sum:1 heu.numpy.PyCapsule.to_numpy:1 of
+#: heu.numpy.PyCapsule.sum:1 heu.numpy.PyCapsule.to_numpy:1 heu.numpy.Shape:1
+#: of
 msgid "Overloaded function."
 msgstr ""
 
@@ -126,6 +127,12 @@ msgid ""
 "(-2^range_bits, 2^range_bits). Range checking is used to block OU "
 "plaintext overflow attack, see HEU documentation for details. throws an "
 "exception if plaintext is out of range."
+msgstr ""
+
+#: ../../docstring heu.numpy.DestinationHeKit:1 of
+msgid ""
+"Init hnp::DestinationHeKit from already created phe::DestinationHeKit "
+"context"
 msgstr ""
 
 #: ../../docstring heu.numpy.PyCapsule.array:3 of
@@ -623,6 +630,10 @@ msgid ""
 "heu.phe.Ciphertext"
 msgstr ""
 
+#: ../../docstring heu.numpy.HeKit:1 of
+msgid "Init hnp::HeKit from a created phe::HeKit context"
+msgstr ""
+
 #: ../../docstring heu.numpy.PyCapsule.decryptor:1 of
 msgid "Get decryptor"
 msgstr ""
@@ -692,6 +703,14 @@ msgstr ""
 msgid ""
 "to_numpy(self: heu.numpy.PlaintextArray, encoder: "
 "heu.phe.BatchFloatEncoder) -> numpy.ndarray"
+msgstr ""
+
+#: ../../docstring heu.numpy.Shape:3 of
+msgid "__init__(self: heu.numpy.Shape, arg0: List[int]) -> None"
+msgstr ""
+
+#: ../../docstring heu.numpy.Shape:5 of
+msgid "__init__(self: heu.numpy.Shape, *args) -> None"
 msgstr ""
 
 #: ../../docstring heu.numpy.PyCapsule.array:3 of

@@ -34,6 +34,7 @@ sys.path.insert(0, os.path.abspath('../bazel-bin/heu/pybind'))
 project = 'HEU'
 copyright = '2022-2024 Ant Group Co., Ltd'
 author = 'HEU authors'
+autoclass_content='both'
 
 # The full version, including alpha/beta/rc tags
 # release = '0.0.6'
